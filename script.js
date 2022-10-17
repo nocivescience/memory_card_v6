@@ -42,6 +42,6 @@ nextEl.addEventListener('click',()=>{
     if(currentActivate>cardsList.length-1){
         currentActivate=cardsList.length-1;
     }
-    // cardsList[0].className='card active';
+    cardsList[currentActivate].className='card active';
     updateCurrentText();
 })
